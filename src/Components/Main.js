@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import Navbar from './Navbar'
 import Jumbotron from './Jumbotron'
+import ProfessionalExperience from './ProfessionalExperience'
 
 class Main extends Component {
     render(){
@@ -10,6 +11,8 @@ class Main extends Component {
         <Navbar/>
    
         <Jumbotron/>
+
+        <ProfessionalExperience/>
         </div>
         )
 
