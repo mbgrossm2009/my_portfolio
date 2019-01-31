@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Job from "./Jobs/Job";
+import placeholder from "../images/placeholder.png"
 class ProfessionalExperience extends Component {
   render() {
     return (
@@ -12,7 +13,11 @@ class ProfessionalExperience extends Component {
             "- Construct reusable components to be used in interactive UI kits",
             "- Technologies Used: Ruby on Rails, JavaScript, ReactJS, HTML, CSS"
           ]}
+          src = {placeholder}
+
         />
+
+
 
         <Job
           title="Full Stack Web Developer"
@@ -22,6 +27,8 @@ class ProfessionalExperience extends Component {
             " - Displays featured listings from Zillow using their API",
             " - Technologies used: Ruby on Rails, HTML, CSS, Bootstrap, AJAX, Heroku, AWS, TDD"
           ]}
+          src = {placeholder}
+
         />
 
         <Job
@@ -32,6 +39,8 @@ class ProfessionalExperience extends Component {
             "       - Allows patients to rate/comment these doctors based on their own experience.",
             " - Technologies used: Ruby on Rails, HTML, CSS, Bootstrap, Heroku"
           ]}
+          src = {placeholder}
+
         />
       </div>
     );

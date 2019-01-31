@@ -3,12 +3,12 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#">
           Matthew B. Grossman
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -16,24 +16,24 @@ class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">
-              Professional Experience <span class="sr-only">(current)</span>
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <a className="nav-item nav-link active" href="#">
+              Professional Experience <span className="sr-only">(current)</span>
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Projects
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Education
             </a>
-            <a class="nav-item nav-link" href="#">
+            <a className="nav-item nav-link" href="#">
               Fun Facts
             </a>
 
-            <a class="nav-item nav-link disabled" href="#">
+            <a className="nav-item nav-link disabled" href="#">
               Disabled
             </a>
           </div>

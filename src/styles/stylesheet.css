@@ -6,3 +6,6 @@ ul {
     list-style-type: none;
 }
 
+jobImg img {
+    max-height: 34rem;
+}
