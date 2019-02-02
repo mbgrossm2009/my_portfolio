@@ -8,6 +8,7 @@ class Job extends React.Component {
         <div className="jobFunctions">
           <li>{item}</li>
         </div>
+        
       );
     });
 
@@ -22,15 +23,15 @@ class Job extends React.Component {
               <h6>{company}</h6>
             </li>
             <li>{listItems}</li>
-            </ul>
-
+          </ul>
         </div>
-        <div className="col-lg-12 row">
+        <div className="col-lg-6 row">
           <div className="imgJob">
-          <ul>
-            <li> <img className="col-lg-6" src={src} /></li>
+            <ul>
+              <li>
+                <img className="col-lg-8" src={src} />
+              </li>
             </ul>
-
           </div>
         </div>
       </div>

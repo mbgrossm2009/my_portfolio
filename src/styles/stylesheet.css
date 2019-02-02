@@ -1,11 +1,29 @@
-@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css');
-
-
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 jobImg img {
-    max-height: 34rem;
+  max-height: 34rem;
+}
+
+.jobsList:nth-child(odd) {
+  background-color: #e8ecef;
+}
+.jobsList:nth-child(even) {
+  background-color: #8ec3eb;
+}
+
+
+.myPic{
+
+  max-width: 36rem;
+  float: right;
+}
+
+
+.social{
+
+  max-width: 94px;
 }
