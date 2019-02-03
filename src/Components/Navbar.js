@@ -29,13 +29,15 @@ class Navbar extends Component {
             <a className="nav-item nav-link" href="#">
               Education
             </a>
-            <a className="nav-item nav-link" href="#">
-              Fun Facts
+       
+
+         
+            <a className = "nav navbar-nav ml-auto">
+            JavaScript | ReactJS | Ruby on Rails | HTML | CSS
             </a>
 
-            <a className="nav-item nav-link disabled" href="#">
-              Disabled
-            </a>
+
+
           </div>
         </div>
       </nav>

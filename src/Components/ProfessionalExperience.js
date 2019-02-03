@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Job from "./Jobs/Job";
 import placeholder from "../images/logo1.png";
+import me1 from "../images/me1.png";
 
 class ProfessionalExperience extends Component {
   render() {
-    let  jobs = [
+    let jobs = [
       <Job
         title="FreeLance Developer"
         company="Self Employed"
@@ -33,18 +34,18 @@ class ProfessionalExperience extends Component {
           "       - Allows patients to rate/comment these doctors based on their own experience.",
           " - Technologies used: Ruby on Rails, HTML, CSS, Bootstrap, Heroku"
         ]}
-        src={placeholder}
+        src={me1}
       />
     ];
-  
+
     const myJobs = jobs.map(job => {
       return (
         <div className="jobsList">
           <li>{job}</li>
         </div>
-      
-    )});
-    return <ul>{myJobs}</ul>
+      );
+    });
+    return <ul className="myJobs">{myJobs}</ul>;
   }
 }
 

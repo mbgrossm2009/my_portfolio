@@ -4,7 +4,6 @@ import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
 
-
 class Jumbotron extends Component {
   render() {
     return (
@@ -20,14 +19,20 @@ class Jumbotron extends Component {
             </p>
           </div>
           <div className="col-lg-6">
-            <img src={placeholder} className='myPic' />
+            <img src={placeholder} className="myPic" />
           </div>
         </div>
-
-        <a href='https://www.facebook.com'><img src={facebook} className="social"/></a>
-        <a href='https://www.linkedin.com'><img src={linkedin} className="social"/></a>
-        <a href='https://www.github.com'><img src={github} className="social"/></a>
-
+        <div className="myLinks">
+          <a href="https://www.facebook.com">
+            <img src={facebook} className="social" />
+          </a>
+          <a href="https://www.linkedin.com">
+            <img src={linkedin} className="social" />
+          </a>
+          <a href="https://www.github.com">
+            <img src={github} className="social" />
+          </a>
+        </div>
 
         <hr className="my-4" />
         <p>JavaScript | ReactJS | Ruby on Rails | HTML | CSS</p>

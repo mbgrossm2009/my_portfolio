@@ -9,9 +9,7 @@ class Main extends Component {
         return (
             <div>
         <Navbar/>
-   
         <Jumbotron/>
-
         <ProfessionalExperience/>
         </div>
         )

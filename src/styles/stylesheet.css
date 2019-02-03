@@ -15,15 +15,25 @@ jobImg img {
   background-color: #8ec3eb;
 }
 
-
-.myPic{
-
+.myPic {
   max-width: 36rem;
   float: right;
 }
 
-
-.social{
-
+.social {
   max-width: 94px;
+}
+
+.myLinks {
+  margin-top: -28%;
+  position: absolute;
+  margin-left: 10%;
+}
+
+.myJobs{
+  padding:0;
+}
+
+.myImage{
+  margin-top:50px;
 }

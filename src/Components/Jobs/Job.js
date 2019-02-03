@@ -29,7 +29,7 @@ class Job extends React.Component {
           <div className="imgJob">
             <ul>
               <li>
-                <img className="col-lg-8" src={src} />
+                <img className="col-lg-8 myImage" src={src} />
               </li>
             </ul>
           </div>
