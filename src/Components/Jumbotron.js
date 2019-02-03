@@ -35,13 +35,7 @@ class Jumbotron extends Component {
         </div>
 
         <hr className="my-4" />
-        <p>JavaScript | ReactJS | Ruby on Rails | HTML | CSS</p>
-        <p className="lead">
-          <a className="btn btn-primary btn-lg" href="#" role="button">
-            Learn more
-          </a>
-        </p>
-      </div>
+       </div>
     );
   }
 }

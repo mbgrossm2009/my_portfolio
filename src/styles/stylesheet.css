@@ -12,7 +12,7 @@ jobImg img {
   background-color: #e8ecef;
 }
 .jobsList:nth-child(even) {
-  background-color: #8ec3eb;
+  background-color: white;
 }
 
 .myPic {
@@ -30,10 +30,26 @@ jobImg img {
   margin-left: 10%;
 }
 
-.myJobs{
-  padding:0;
+.myJobs {
+  padding: 0;
 }
 
-.myImage{
-  margin-top:50px;
+.myImage {
+  margin-top: 50px;
+  float:right;
+  position: relative;
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.proTitle{
+  background-color: #e8ecef;
+  margin:0;
+
+}
+
+.jobRow{
+  position:absolute;
 }
