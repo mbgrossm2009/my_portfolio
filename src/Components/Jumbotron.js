@@ -9,20 +9,19 @@ class Jumbotron extends Component {
     return (
       <div className="jumbotron">
         <h1 className="display-4">Welcome to my Portfolio!</h1>
-        <div className="col-lg-12 row">
-          <div className="col-lg-6">
-            <p className="lead">
+        <div className="row">
+            <p className="col-lg-6 lead">
               Strong understanding of software engineering concepts and
               application development. A fast learner with analytical skills and
               a dedicated work ethic targeting an entry-level opportunity in
               Software Engineering.
             </p>
-          </div>
-          <div className="col-lg-6">
+          {/* <div className="col-lg-6">
             <img src={placeholder} className="myPic" />
-          </div>
+          </div> */}
         </div>
-        <div className="myLinks">
+{/*  
+         <div className="col-lg-12 myLinks">
           <a href="https://www.facebook.com">
             <img src={facebook} className="social" />
           </a>
@@ -31,8 +30,7 @@ class Jumbotron extends Component {
           </a>
           <a href="https://www.github.com">
             <img src={github} className="social" />
-          </a>
-        </div>
+          </a> */}
 
         <hr className="my-4" />
        </div>
