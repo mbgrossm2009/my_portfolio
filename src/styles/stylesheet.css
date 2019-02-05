@@ -45,12 +45,13 @@ jobImg img {
 .jumbotron {
   margin: 0;
   background-image: url("../images/Matt1.jpg");
-  /* background-position: 11% 32px; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 690px;
+
 }
+
 
 .proTitle{
   background-color: #e8ecef;

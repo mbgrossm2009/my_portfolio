@@ -8,19 +8,16 @@ class Jumbotron extends Component {
   render() {
     return (
       <div className="jumbotron">
+         <div className="row">
         <h1 className="display-4">Welcome to my Portfolio!</h1>
-        <div className="row">
-            <p className="col-lg-6 lead">
-              Strong understanding of software engineering concepts and
-              application development. A fast learner with analytical skills and
-              a dedicated work ethic targeting an entry-level opportunity in
-              Software Engineering.
-            </p>
-          {/* <div className="col-lg-6">
-            <img src={placeholder} className="myPic" />
-          </div> */}
+          <p className="col-lg-6 lead">
+            Strong understanding of software engineering concepts and
+            application development. A fast learner with analytical skills and a
+            dedicated work ethic targeting an entry-level opportunity in
+            Software Engineering.
+          </p>
         </div>
-{/*  
+        {/*  
          <div className="col-lg-12 myLinks">
           <a href="https://www.facebook.com">
             <img src={facebook} className="social" />
@@ -33,7 +30,7 @@ class Jumbotron extends Component {
           </a> */}
 
         <hr className="my-4" />
-       </div>
+      </div>
     );
   }
 }
