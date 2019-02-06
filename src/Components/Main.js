@@ -9,7 +9,7 @@ class Main extends Component {
         return (
             <div>
             
-        <Navbar/>
+        {/* <Navbar/> */}
        
         <Jumbotron/>
 
