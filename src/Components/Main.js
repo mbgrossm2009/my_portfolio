@@ -1,25 +1,20 @@
-
-import React, { Component } from "react";
-import Navbar from './Navbar'
-import Jumbotron from './Jumbotron'
-import ProfessionalExperience from './ProfessionalExperience'
+import React, { Component } from 'react';
+import Navbar from './Navbar';
+import Jumbotron from './Jumbotron';
+import ProfessionalExperience from './ProfessionalExperience';
 
 class Main extends Component {
-    render(){
-        return (
-            <div>
-            
-        {/* <Navbar/> */}
-       
-        <Jumbotron/>
+	render() {
+		return (
+			<div>
+				<Navbar />
 
-        <ProfessionalExperience/>
-        </div>
-        )
+				<Jumbotron />
 
-    }
+				<ProfessionalExperience />
+			</div>
+		);
+	}
 }
-
-
 
 export default Main;

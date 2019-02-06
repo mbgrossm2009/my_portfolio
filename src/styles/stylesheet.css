@@ -22,11 +22,13 @@ ul {
 
 .social {
   max-width: 94px;
+  margin-right: 5%;
 }
 
 .myLinks {
   position: relative;
-  bottom: 0;
+  margin-top: auto;
+  margin-left: 8%;
 }
 
 .myJobs {
@@ -39,15 +41,27 @@ ul {
   float: right;
 }
 
-.jumbotron {
-  margin: 0;
-position: relative;
-}
-
 .proTitle {
   background-color: #e8ecef;
   margin: 0;
 }
 .job {
   margin-top: 30px;
+}
+
+.jumbotron {
+  margin: 0;
+  position: relative;
+}
+
+.jumbotron button {
+  margin-bottom: 31%;
+  padding: 12px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+
+nav{
+  background-color: #F8F9FA;
 }
