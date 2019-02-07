@@ -15,34 +15,30 @@ class Jumbotron extends Component {
 						<p className='lead'>
 							My name is Matthew Grossman and I am a software developer looking for an entry level
 							position where I can continue to learn and grow within the developing field. I am a fast
-							learner with analytical skills and a dedicated work ethic. I excel in{' '}
-							<strong> Javascript, ReactJS, Ruby on Rails, HTML5, CSS</strong> and continue to expand my
-							knowledge as both a coder and developer through online courses,
-							collaborations with peers and self teaching.
+							learner with analytical skills and a dedicated work ethic. I excel in Javascript, ReactJS,
+							Ruby on Rails, HTML5, CSS and continue to expand my knowledge as both a coder and developer
+							through online courses, collaborations with peers and self teaching.
 						</p>
 					</div>
 					<div className='row'>
 						<div className='col-lg-6'>
 							<img src={matt1} className='img-fluid' />
 						</div>
-
-						<div className='col-lg-12 col-xs-3 float-right myLinks'>
+						<div className='col-lg-5 col-sm float-right myLinks'>
 							<div className='col-lg-12'>
 								<button type='button' class='btn btn-primary btn-lg'>
 									Send Me a Message
 								</button>
 							</div>
-							<div className='col-lg-12 col-xs-3'>
-								<a href='https://www.facebook.com/matt.grossman.18'>
-									<img src={facebook} className='social' />
-								</a>
-								<a href='https://www.linkedin.com/in/matt-grossman/'>
-									<img src={linkedin} className='social' />
-								</a>
-								<a href='https://github.com/mbgrossm2009'>
-									<img src={github} className='social' />
-								</a>
-							</div>
+							<a href='https://www.facebook.com'>
+								<img src={facebook} className='social' />
+							</a>
+							<a href='https://www.linkedin.com'>
+								<img src={linkedin} className='social' />
+							</a>
+							<a href='https://www.github.com'>
+								<img src={github} className='social' />
+							</a>
 						</div>
 						<hr className='my-4' />
 					</div>
@@ -51,5 +47,4 @@ class Jumbotron extends Component {
 		);
 	}
 }
-
 export default Jumbotron;

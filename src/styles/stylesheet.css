@@ -27,8 +27,8 @@ ul {
 
 .myLinks {
   position: relative;
-  margin-top: auto;
-  /* margin-left: 8%; */
+  margin: auto;
+  
 }
 
 .myJobs {
@@ -37,6 +37,7 @@ ul {
 
 .myImage {
   margin-top: 50px;
+  float: right;
 }
 
 .proTitle {
