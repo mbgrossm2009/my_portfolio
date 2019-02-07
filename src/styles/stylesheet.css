@@ -37,7 +37,6 @@ ul {
 
 .myImage {
   margin-top: 50px;
-  float: right;
 }
 
 .proTitle {
@@ -67,4 +66,9 @@ nav{
 
 .emptySpace{
   background-color: #E7ECEF;
+}
+
+
+.job{
+  font-family: comic sans ms;
 }

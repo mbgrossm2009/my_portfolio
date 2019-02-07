@@ -24,7 +24,7 @@ class ProfessionalExperience extends Component {
 					title='Full Stack Web Developer'
 					company='HathawayHomes-MA'
 					description={[
-						' - Designed and developed a full-service real estate website in which users are able to customize their search based on a variety of categories such as geographical location, price point, numberof rooms, and more.',
+						' - Designed and developed a full-service real estate website in which users are able to customize their search based on a variety of categories such as geographical location, price point, number of rooms, and more.',
 						' - Displays featured listings from Zillow using their API',
 						' - Technologies used: Ruby on Rails, HTML, CSS, Bootstrap, AJAX, Heroku, AWS, TDD'
 					]}
@@ -53,7 +53,7 @@ class ProfessionalExperience extends Component {
 			);
 		});
 		return (
-			<div className="emptySpace">
+			<div className='emptySpace'>
 				<a name='section1' />
 				<div className='container'>
 					<h1 className='proTitle text-center'>Professional Experience</h1>

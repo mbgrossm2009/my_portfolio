@@ -9,7 +9,7 @@ class Main extends Component {
 			<div>
 				<Navbar />
 
-				{/* <Jumbotron /> */}
+				<Jumbotron />
 
 				<ProfessionalExperience />
 			</div>

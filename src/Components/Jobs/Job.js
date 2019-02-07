@@ -14,21 +14,19 @@ class Job extends React.Component {
 		return (
 			<div>
 				<div className='row'>
-					<div className='col-lg-7'>
-						<ul className='job'>
-							<li>
-								<h2>{company}</h2>
-							</li>
-							<li>
-								<h6>{title}</h6>
-							</li>
-							<li>{listItems}</li>
-						</ul>
-					</div>
+					<ul className='col-lg-12 job'>
+						<li>
+							<h2>{company}</h2>
+						</li>
+						<li>
+							<h6>{title}</h6>
+						</li>
+						<li>{listItems}</li>
 
-					<li>
-						<img className='col-lg-5 myImage' src={src} />
-					</li>
+						<li>
+							<img className='col-lg-12 myImage' src={src} />
+						</li>
+					</ul>
 				</div>
 			</div>
 		);
