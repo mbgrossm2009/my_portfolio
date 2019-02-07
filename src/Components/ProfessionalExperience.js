@@ -53,7 +53,7 @@ class ProfessionalExperience extends Component {
 			);
 		});
 		return (
-			<div className='emptySpace'>
+			<div className="emptySpace">
 				<a name='section1' />
 				<div className='container'>
 					<h1 className='proTitle text-center'>Professional Experience</h1>
