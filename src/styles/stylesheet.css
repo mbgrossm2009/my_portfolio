@@ -37,7 +37,6 @@ ul {
 
 .myImage {
   margin-top: 50px;
-  margin-bottom: 35px;
   float: right;
 }
 
@@ -64,4 +63,8 @@ ul {
 
 nav{
   background-color: #F8F9FA;
+}
+
+.emptySpace{
+  background-color: #E7ECEF;
 }
