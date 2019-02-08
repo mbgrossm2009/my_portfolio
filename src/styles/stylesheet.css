@@ -4,16 +4,12 @@ ul {
   list-style-type: none;
 }
 
-/* .jobImg img {
-  max-height: 34rem;
-} */
+body{
+  background-color: #E8ECEF;
+  font-family: "comic sans ms"
+}
 
-.jobsList:nth-child(odd) {
-  background-color: #e8ecef;
-}
-.jobsList:nth-child(even) {
-  background-color: white;
-}
+
 
 .myPic {
   max-width: 20rem;
@@ -40,14 +36,13 @@ ul {
   float: right;
 }
 
-.proTitle {
+.title {
   background-color: #e8ecef;
   margin: 0;
 }
 .job {
   margin-top: 30px;
 }
-
 .jumbotron {
   margin: 0;
   position: relative;
@@ -62,14 +57,15 @@ ul {
 
 
 nav{
-  background-color: #F8F9FA;
+  background-color: #E8ECEF;
 }
 
 .emptySpace{
-  background-color: #E7ECEF;
+  background-color: #E8ECEF;
 }
 
-
-.job{
-  font-family: comic sans ms;
+.schools{
+  margin-left: 10%;
+  margin-top:5%;
 }
+

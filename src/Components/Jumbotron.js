@@ -30,14 +30,15 @@ class Jumbotron extends Component {
 									Send Me a Message
 								</button>
 							</div>
-							<a href='https://www.facebook.com'>
-								<img src={facebook} className='social' />
+							<a href='https://www.github.com'>
+								<img src={github} className='social' />
 							</a>
+
 							<a href='https://www.linkedin.com'>
 								<img src={linkedin} className='social' />
 							</a>
-							<a href='https://www.github.com'>
-								<img src={github} className='social' />
+							<a href='https://www.facebook.com'>
+								<img src={facebook} className='social' />
 							</a>
 						</div>
 						<hr className='my-4' />
