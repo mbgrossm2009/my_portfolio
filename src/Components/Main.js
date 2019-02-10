@@ -3,6 +3,10 @@ import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
 import ProfessionalExperience from './ProfessionalExperience';
 import School from './Schools/School';
+import Footer from './Footer';
+
+
+
 
 class Main extends Component {
 	constructor() {
@@ -24,12 +28,13 @@ class Main extends Component {
 
 	render() {
 		return (
-			<div className="my_portfolio">
+			<div className='my_portfolio'>
 				<Navbar />
 				<Jumbotron />
 				<ProfessionalExperience />
 				<h1 className='text-center'>Education</h1>
 				<div className='schools row'>{this.state.schools}</div>
+				<Footer />
 			</div>
 		);
 	}

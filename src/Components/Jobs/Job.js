@@ -16,7 +16,8 @@ class Job extends React.Component {
 				<div className='row'>
 					<ul className='col-lg-12 job'>
 						<li>
-							<h2>{company}</h2>
+						<h2> {company}</h2>
+				
 						</li>
 						<li>
 							<h6>{title}</h6>
