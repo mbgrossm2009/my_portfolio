@@ -4,8 +4,7 @@ import Jumbotron from './Jumbotron';
 import ProfessionalExperience from './ProfessionalExperience';
 import School from './Schools/School';
 import Footer from './Footer';
-
-
+import Weather from './Weather';
 
 
 class Main extends Component {
@@ -29,12 +28,13 @@ class Main extends Component {
 	render() {
 		return (
 			<div className='my_portfolio'>
-				<Navbar />
+				{/* <Navbar />
 				<Jumbotron />
 				<ProfessionalExperience />
 				<h1 className='text-center'>Education</h1>
 				<div className='schools row'>{this.state.schools}</div>
-				<Footer />
+				<Footer /> */}
+				<Weather/>
 			</div>
 		);
 	}

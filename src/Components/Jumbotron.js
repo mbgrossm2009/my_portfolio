@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import placeholder from '../images/logo1.png';
 import facebook from '../images/facebook.png';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';

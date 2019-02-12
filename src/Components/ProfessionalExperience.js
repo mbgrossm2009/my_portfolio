@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Job from './Jobs/Job';
-import placeholder from '../images/logo1.png';
 import me1 from '../images/me1.png';
 import hathaway1 from '../images/hathawayhomes.png';
 import Matt2 from '../images/Matt2.jpg';
