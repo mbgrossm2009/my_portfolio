@@ -26,7 +26,7 @@ class Jumbotron extends Component {
 						</div>
 						<div className='col-lg-5 col-sm float-right myLinks'>
 							<div className='col-lg-12'>
-								<button type='button' class='btn btn-primary btn-lg'>
+								<button type='button' class='btn btn-primary btn-lg' id='myButton'>
 									Send Me a Message
 								</button>
 							</div>

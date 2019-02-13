@@ -9,6 +9,9 @@ body {
 	font-family: "dunbar";
 }
 
+#myButton{
+	margin-left: 18%;
+}
 .myPic {
 	max-width: 20rem;
 	float: right;
