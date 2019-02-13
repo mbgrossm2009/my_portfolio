@@ -12,10 +12,13 @@ class Job extends React.Component {
 		});
 
 		return (
-			<div>
+			<div className = "container">
+
 				<div className='row'>
+
 					<ul className='col-lg-12 job'>
 						<div className='job_list'>
+
 							<li>
 								<h2> {company}</h2>
 							</li>
@@ -27,9 +30,7 @@ class Job extends React.Component {
 							</li>
 						</div>
 						<li>
-							<div className='container'>
 								<img className='col-lg-12 myImage' src={src} />
-							</div>
 						</li>
 					</ul>
 				</div>
