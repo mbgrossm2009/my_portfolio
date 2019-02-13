@@ -14,13 +14,16 @@ class Main extends Component {
 		this.state = {
 			schools: [
 				<School name='Curry College' location='Milton,MA' field='Information Technology'>
-					<p>I studied here </p>
+					<p><a href="https://www.curry.edu"target="_blank">HomePage</a> </p>
 				</School>,
 				<School name='Launch Academy' location='Remote' field='Full Stack Web Development'>
-					<p>I studeied here</p>
+					<p><a href="https://launchacademy.com/" target="_blank">HomePage</a></p>
 				</School>,
 				<School name='Samex' location='Remote' field='Full Stack Web Development'>
-					<p>I studied here</p>
+					<p><a href="https://apprentice.samex.online/" target="_blank">HomePage</a></p>
+				</School>,
+					<School name='Udemy' location='Remote' field='React Development'>
+					<p><a href="https://www.udemy.com/the-complete-react-js-redux-course-build-modern-web-apps/" target="_blank">HomePage</a></p>
 				</School>
 			]
 		};
@@ -31,9 +34,14 @@ class Main extends Component {
 			<div className='my_portfolio'>
 				<Navbar />
 				<Jumbotron />
+
 				<ProfessionalExperience />
-				<h1 className='text-center'>Education</h1>
+				
+				<h1 className='edu_title text-center'>Education</h1>
+
 				<div className='schools row'>{this.state.schools}</div>
+				<a name='section2' />
+
 				<Footer />
 			</div>
 		);

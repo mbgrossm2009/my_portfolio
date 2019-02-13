@@ -5,6 +5,9 @@ class School extends React.Component {
 		const { name, field, location, children } = this.props;
 
 		return (
+
+			<div className="schools">
+
 					<ul className='col-lg-4' >
 						<li>
 							<h2>{name}</h2>
@@ -19,6 +22,7 @@ class School extends React.Component {
 							<h6>{children}</h6>
 						</li>
 					</ul>
+					</div>
 		);
 	}
 }
