@@ -46,17 +46,12 @@ class ProfessionalExperience extends Component {
 
 	render() {
 		const myJobs = this.state.jobs.map((job) => {
-			return (
-				<div className='jobsList'>
-					<li>{job}</li>
-				</div>
-			);
+			return <div className='col-lg-4'>{job}</div>;
 		});
 		return (
 			<div>
 				<a name='section1' />
-
-					<ul className='myJobs'>{myJobs}</ul>
+				<div className='row'>{myJobs}</div>
 			</div>
 		);
 	}
