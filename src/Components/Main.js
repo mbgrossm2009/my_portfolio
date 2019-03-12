@@ -49,18 +49,18 @@ class Main extends Component {
 		return (
 			<div>
 				<div className='my_portfolio'>
-					{/* <Navbar /> */}
-					{/* <Jumbotron /> */}
-					{/* <h1 className='title text-center'>Professional Experience</h1> */}
+					<Navbar />
+					<Jumbotron />
+					<h1 className='title text-center'>Professional Experience</h1>
 
 					<ProfessionalExperience />
 
-					{/* <h1 className='edu_title text-center'>Education</h1> */}
+					<h1 className='edu_title text-center'>Education</h1>
 
-					{/* <div className='schools row'>{this.state.schools}</div> */}
-					{/* <a name='section2' /> */}
+					<div className='schools row'>{this.state.schools}</div>
+					<a name='section2' />
 
-					{/* <Footer /> */}
+					<Footer />
 				</div>
 			</div>
 		);

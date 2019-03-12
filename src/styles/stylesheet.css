@@ -1,106 +1,112 @@
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
 
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 body {
-	background-color: #e8ecef;
-	font-family: "dunbar";
-	/* margin-left: auto; */
-	/* padding: 0; */
+  background-color: #e8ecef;
+  font-family: "dunbar";
+  /* margin-left: auto; */
+  /* padding: 0; */
 }
 
 #myButton {
-	margin-bottom: 31%;
-	padding: 12px;
-	margin-left: 10%;
-	margin-top: 10px;
+  margin-bottom: 31%;
+  padding: 12px;
+  margin-left: 10%;
+  margin-top: 10px;
 }
 .myPic {
-	max-width: 20rem;
-	float: right;
+  max-width: 20rem;
+  float: right;
 }
 
 .social {
-	max-width: 94px;
-	margin-right: 5%;
+  max-width: 94px;
+  margin-right: 5%;
 }
 
 .myLinks {
-	position: relative;
-	margin: auto;
+  position: relative;
+  margin: auto;
 }
 
 .myJobs {
-	padding: 0;
-	/* background: white; */
+  padding: 0;
+  /* background: white; */
+}
+.jobs {
+  /* overflow: hidden; */
+  /* position: absolute; */
 }
 
 .myImage {
-	margin-top: 50px;
-	margin-bottom: 25px;
-	/* float: right; */
+  margin-top: 50px;
+  margin-bottom: 25px;
+  /* float: right; */
 }
 
 .title {
-	background-color: #a9a9a9;
-	margin: 0;
+  background-color: #a9a9a9;
+  margin: 0;
 }
 .job {
-	margin-top: 30px;
-	background: white;
+  margin-top: 30px;
+  background: white;
+  height: auto;
+  padding: 10%;
 }
 .jumbotron {
-	margin: 0;
-	position: relative;
+  margin: 0;
+  position: relative;
 }
 
 nav {
-	background-color: #e8ecef;
+  background-color: #e8ecef;
 }
 
 .emptySpace {
-	background-color: #e8ecef;
+  background-color: #e8ecef;
 }
 
 .schools {
-	/* margin-left: 10%; */
+  /* margin-left: 10%; */
 }
 
 .footer {
-	background: #5f5f5f;
-	color: white;
-	/* padding: 0; */
+  background: #5f5f5f;
+  color: white;
+  /* padding: 0; */
 }
 div.schools.row {
-	margin: 0;
+  margin: 0;
 }
 
 .footerText {
-	margin: auto;
+  margin: auto;
 }
 
 .edu_title {
-	margin-bottom: 4%;
+  margin-bottom: 4%;
 }
 
 .my_info {
-	/* float: right; */
+  /* float: right; */
 }
 
 .jobsList:nth-child(odd) {
-	background-color: darkgrey;
+  background-color: darkgrey;
 }
 .jobsList:nth-child(even) {
-	background-color: #e8ecef;
+  background-color: #e8ecef;
 }
 
 /* .job_list {
 	/* margin-left: 3%;
 	margin-right: 3%; */
-/* } 
-/* 
+/* }
+/*
 .black{
 	background:black;
 } */
