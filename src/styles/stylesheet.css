@@ -48,7 +48,6 @@ body {
 }
 
 .title {
-  background-color: #a9a9a9;
   margin: 0;
 }
 .job {
@@ -70,21 +69,18 @@ nav {
   background-color: #e8ecef;
 }
 
-.schools {
-  /* margin-left: 10%; */
-}
-
 .footer {
   background: #5f5f5f;
   color: white;
   /* padding: 0; */
 }
-div.schools.row {
-  margin: 0;
-}
 
 .footerText {
   margin: auto;
+}
+
+.schools {
+  /* margin-left: 20%; */
 }
 
 .edu_title {
@@ -102,11 +98,7 @@ div.schools.row {
   background-color: #e8ecef;
 }
 
-/* .job_list {
-	/* margin-left: 3%;
-	margin-right: 3%; */
-/* }
-/*
-.black{
-	background:black;
-} */
+.job_list {
+  /* margin-left: 3%;
+  margin-right: 3%; */
+}

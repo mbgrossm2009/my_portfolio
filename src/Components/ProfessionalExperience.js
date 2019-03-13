@@ -50,6 +50,8 @@ class ProfessionalExperience extends Component {
     });
     return (
       <div classNane="jobs">
+        <h1 className="title text-center">Professional Experience</h1>
+
         <a name="section1" />
         <div className="container">
           <div className="row">{myJobs}</div>
