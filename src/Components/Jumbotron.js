@@ -6,19 +6,11 @@ import github from "../images/github.png";
 import matt1 from "../images/Matt1.jpg";
 
 class Jumbotron extends Component {
-  state = {
-    numPages: null,
-    pageNumber: 1
-  };
-
-  onDocuemntLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  };
   render() {
-    const { pageNumber, numPages } = this.state;
     return (
       <div className="jumbotron">
         <div className="container">
+          {/* Top of Jumboton Start */}
           <div className="col-lg-12 row">
             <h1 className="display-4">Welcome to my Portfolio!</h1>
             <p className="lead">
@@ -31,23 +23,35 @@ class Jumbotron extends Component {
               with peers and self teaching.
             </p>
           </div>
+          </div>
+
+          {/* Top of JumboTron End*/}
+
+          {/*JumboTron Bottom Start */}
+          <div className="container">
           <div className="jumbotronBottom row">
+            {/*Picture of me */}
             <div className="col-lg-6">
               <img src={matt1} className="img-fluid" />
             </div>
+            {/* Picture of me end */}
 
-            <div className="col-lg-5 col-sm float-right myLinks">
-              <div className="resume w-50 p-3 col-lg-10 col-md col-sm">
+            <div className="col-lg-6 col-sm myLinks">
+              {/*Resume Start */}
+              <section className="resume w-50 p-3  col-lg-6 col-md">
                 <a
                   href="/MatthewGrossmanResume.pdf"
                   download="MatthewGrossmanResume"
                 >
                   Download My Resume Here
                 </a>
-              </div>
-              <div className="socialMedia_links col-lg-12 col-sm">
+              </section>
+
+              {/*Resume End */}
+              {/*Social Media Links Start */}
+              <div className="socialMedia_links push-to-bottom col-lg-12 col-sm">
                 <a href="https://www.github.com">
-                  <img src={github} className="social" />
+                  <img src={github} className="social  " />
                 </a>
                 <a href="https://www.linkedin.com">
                   <img src={linkedin} className="social" />
@@ -56,10 +60,12 @@ class Jumbotron extends Component {
                   <img src={facebook} className="social" />
                 </a>
               </div>
+              {/*Social Media Links End */}
             </div>
             <hr className="my-4" />
           </div>
         </div>
+        {/* JumboTron Bottom End*/}
       </div>
     );
   }
