@@ -5,7 +5,8 @@ class School extends React.Component {
     const { name, major, location, children } = this.props;
 
     return (
-      <ul className="col-lg-12">
+
+      <ul className="col-lg-10 school">
         <li>
           <h2>{name}</h2>
         </li>

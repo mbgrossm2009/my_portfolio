@@ -42,6 +42,7 @@ class Jumbotron extends Component {
                 <a
                   href="/MatthewGrossmanResume.pdf"
                   download="MatthewGrossmanResume"
+                  className="download_link"
                 >
                   Download My Resume Here
                 </a>
@@ -50,14 +51,15 @@ class Jumbotron extends Component {
               {/*Resume End */}
               {/*Social Media Links Start */}
               <div className="socialMedia_links push-to-bottom col-lg-12 col-sm">
-                <a href="https://www.github.com">
-                  <img src={github} className="social  " />
-                </a>
-                <a href="https://www.linkedin.com">
+
+                <a href="https://www.linkedin.com/in/matt-grossman/">
                   <img src={linkedin} className="social" />
                 </a>
-                <a href="https://www.facebook.com">
+                <a href="https://www.facebook.com/matt.grossman.18">
                   <img src={facebook} className="social" />
+                </a>
+                <a href="https://github.com/mbgrossm2009">
+                  <img src={github} className="social"/>
                 </a>
               </div>
               {/*Social Media Links End */}
