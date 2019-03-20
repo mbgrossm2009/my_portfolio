@@ -17,10 +17,9 @@ body {
   margin-left: 10%;
   margin-top: 10px;
 }
-/* .myPic {
-  max-width: 20rem;
-  float: right;
-} */
+.myPic {
+  border:solid;
+}
 
 .social {
   max-width: 94px;

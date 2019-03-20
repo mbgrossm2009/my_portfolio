@@ -32,7 +32,7 @@ class Jumbotron extends Component {
           <div className="jumbotronBottom row">
             {/*Picture of me */}
             <div className="col-lg-6">
-              <img src={matt1} className="img-fluid" />
+              <img src={matt1} className=" myPic img-fluid" />
             </div>
             {/* Picture of me end */}
 
