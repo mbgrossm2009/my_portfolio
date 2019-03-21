@@ -17,7 +17,7 @@ class Job extends React.Component {
         </li>
         <li>{listItems}</li>
         <li>
-          <img className="myImage img-fluid" src={src} />
+          <img className="myImage img-fluid" src={src} alt = "My Job" />
         </li>
       </ul>
     );

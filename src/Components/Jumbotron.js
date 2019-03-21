@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import placeholder from "../images/logo1.png";
 import facebook from "../images/facebook.png";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
@@ -12,7 +11,7 @@ class Jumbotron extends Component {
         <div className="container">
           {/* Top of Jumboton Start */}
           <div className="col-lg-12 row">
-            <h1 className="display-4">Welcome to my Portfolio!</h1>
+            <h1 className="display-6">Welcome to my Portfolio!</h1>
             <p className="lead">
               My name is Matthew Grossman and I am a software developer looking
               for an entry level position where I can continue to learn and grow
@@ -32,13 +31,13 @@ class Jumbotron extends Component {
           <div className="jumbotronBottom row">
             {/*Picture of me */}
             <div className="col-lg-6">
-              <img src={matt1} className=" myPic img-fluid" />
+              <img src={matt1} className=" myPic img-fluid"  alt = "Matt Grossman"/>
             </div>
             {/* Picture of me end */}
 
             <div className="col-lg-6 col-sm myLinks">
               {/*Resume Start */}
-              <section className="resume w-50 p-3  col-lg-6 col-md">
+              <section className="resume w-50 p-3  col-lg-6 col-md col-sm">
                 <a
                   href="/MatthewGrossmanResume.pdf"
                   download="MatthewGrossmanResume"
@@ -50,16 +49,16 @@ class Jumbotron extends Component {
 
               {/*Resume End */}
               {/*Social Media Links Start */}
-              <div className="socialMedia_links push-to-bottom col-lg-12 col-sm">
+              <div className="socialMedia_links col-lg-12 ">
 
                 <a href="https://www.linkedin.com/in/matt-grossman/">
-                  <img src={linkedin} className="social" />
+                  <img src={linkedin} className="social" alt="Facebook" />
                 </a>
                 <a href="https://www.facebook.com/matt.grossman.18">
-                  <img src={facebook} className="social" />
+                  <img src={facebook} className="social" alt = "Facebook" />
                 </a>
                 <a href="https://github.com/mbgrossm2009">
-                  <img src={github} className="social"/>
+                  <img src={github} className="social" alt="github"/>
                 </a>
               </div>
               {/*Social Media Links End */}
