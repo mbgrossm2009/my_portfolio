@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Job from "./Jobs/Job";
-import placeholder from "../images/logo1.png";
 import me1 from "../images/me1.png";
 import hathaway1 from "../images/hathawayhomes.png";
 import Matt2 from "../images/Matt2.jpg";
@@ -45,10 +44,9 @@ class ProfessionalExperience extends Component {
       return <div className="col-lg-6">{job}</div>;
     });
     return (
-      <div classNane="jobs">
+      <div className="jobs">
         <h1 className="title text-center">Professional Experience</h1>
 
-        <a name="section1" />
         <div className="container">
           <div className="row">{myJobs}</div>
         </div>

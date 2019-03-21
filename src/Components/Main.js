@@ -16,7 +16,7 @@ class Main extends Component {
           major="Information Technology"
         >
           <p>
-            <a href="https://www.curry.edu" target="_blank">
+            <a href="https://www.curry.edu">
               www.curry.edu
             </a>{" "}
           </p>
@@ -27,7 +27,7 @@ class Main extends Component {
           major="Full Stack Web Development"
         >
           <p>
-            <a href="https://launchacademy.com/" target="_blank">
+            <a href="https://launchacademy.com/">
               www.launchacademy.com
             </a>
           </p>
@@ -38,7 +38,7 @@ class Main extends Component {
           major="Full Stack Web Development"
         >
           <p>
-            <a href="https://apprentice.samex.online/" target="_blank">
+            <a href="https://apprentice.samex.online/">
               www.apprentice.samex.online
             </a>
           </p>
@@ -47,7 +47,7 @@ class Main extends Component {
           <p>
             <a
               href="https://www.udemy.com/the-complete-react-js-redux-course-build-modern-web-apps/"
-              target="_blank"
+
             >
               Udemy Course
             </a>
@@ -59,17 +59,18 @@ class Main extends Component {
 
   render() {
     return (
-      <div className="container">
+
         <div className="my_portfolio">
           <Navbar />
+<div className="container">
           <Jumbotron />
 
           <ProfessionalExperience />
           <h1 className=" edu_title text-center">Education</h1>
            <div className="schools row">{this.state.schools}</div>
-          <a name="section2" />
+           </div>
           <Footer />
-        </div>
+
       </div>
     );
   }
