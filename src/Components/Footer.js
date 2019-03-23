@@ -11,7 +11,7 @@ class Footer extends Component {
 		window.addEventListener('randomQuote', this.randomQuote())
 }
 
-	 randomQuote(){
+	 randomQuote(event){
 		var quotes= [
 		 '"Whatever the mind of man can conceive and believe, it can achieve. –Napoleon Hill"',
 			'"Strive not to be a success, but rather to be of value. –Albert Einstein"',
@@ -29,13 +29,14 @@ class Footer extends Component {
 		 var x = Math.floor(Math.random() * 11);
 		 var myQuote = quotes[x].toString('')
 		 this.setState({quote: myQuote})
+
 	}
 	render() {
 		return (
 			<footer className='footer'>
 				<div className='container'>
 					<div className='row'>
-						<p className='col-lg-6 footerTex'> {this.state.quote} </p>
+						<p className='col-lg-12 footerText'> {this.state.quote} </p>
 					</div>
 				</div>
 			</footer>

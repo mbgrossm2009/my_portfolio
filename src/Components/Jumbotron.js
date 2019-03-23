@@ -19,7 +19,7 @@ class Jumbotron extends Component {
               skills and a dedicated work ethic. I excel in Javascript, ReactJS,
               Ruby on Rails, HTML5, CSS and continue to expand my knowledge as
               both a coder and developer through online courses, collaborations
-              with peers and self teaching.
+              with peers, and self teaching.
             </p>
           </div>
           </div>
