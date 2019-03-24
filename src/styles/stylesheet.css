@@ -23,7 +23,9 @@ body {
 
 .social {
   max-width: 94px;
-  margin-left: 30px;
+  /* margin-left: 3px; */
+  border: solid;
+  color: black
 }
 
 .socialMedia_links {
