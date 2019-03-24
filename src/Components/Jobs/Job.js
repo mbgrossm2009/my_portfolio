@@ -2,7 +2,7 @@ import React from "react";
 
 class Job extends React.Component {
   render() {
-    const { title, company, description, src } = this.props;
+    const { title, company, description, src, url } = this.props;
     const listItems = description.map(item => {
       return <li>{item}</li>;
     });
@@ -17,7 +17,7 @@ class Job extends React.Component {
         </li>
         <li>{listItems}</li>
         <li>
-          <img className="myImage img-fluid" src={src} alt = "My Job" />
+          <a href = {url}><img className="myImage img-fluid" src={src} alt = "My Job" /></a>
         </li>
       </ul>
     );

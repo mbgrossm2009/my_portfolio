@@ -26,6 +26,7 @@ class ProfessionalExperience extends Component {
             " - Allows patients to rate/comment these doctors based on their own experience.",
           ]}
           src={me1}
+          url="https://sheltered-brushlands-68738.herokuapp.com/"
         />,
         <Job
           title="Full Stack Web Developer"
@@ -34,6 +35,7 @@ class ProfessionalExperience extends Component {
             " Designed and built a full-service real estate website with clean and organized code, in which users are able to customize their search based on a variety of categories such as geographical location, price point, number of rooms, and more. "
           ]}
           src={hathaway1}
+          url="http://www.hathawayhomes-ma.com"
         />
       ]
     };
