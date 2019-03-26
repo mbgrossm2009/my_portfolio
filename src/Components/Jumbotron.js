@@ -16,7 +16,7 @@ class Jumbotron extends Component {
 							My name is Matthew Grossman and I am a software developer looking for an entry level
 							position where I can continue to learn and grow within the developing field. I am a fast
 							learner with analytical skills and a dedicated work ethic. I excel in Javascript, ReactJS,
-							Ruby on Rails, HTML5, CSS and continue to expand my knowledge as both a coder and developer
+							Ruby on Rails, HTML5, CSS, and continue to expand my knowledge as both a coder and developer
 							through online courses, collaborations with peers, and self teaching.
 						</p>
 					</div>
