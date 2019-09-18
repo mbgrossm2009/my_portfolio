@@ -38,7 +38,7 @@ class Jumbotron extends Component {
 							<section className='resume w-50 p-3  col-lg-6 col-md'>
 								<a
 									href='/MatthewGrossmanResume.pdf'
-									download='MatthewGrossmanResume'
+									download='/MatthewGrossmanResume'
 									className='download_link'
 								>
 									Download My Resume Here
