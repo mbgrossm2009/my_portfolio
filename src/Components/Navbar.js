@@ -10,7 +10,7 @@ class Navbar extends Component {
 						grossmanmatt@yahoo.com{' '}
 					</a>
 				</span>
-				<span className='navbar-text2'>Javascript | ReactJS | Ruby on Rails | HTML5 | CSS</span>
+				<span className='navbar-text2'>Ruby on Rails | JavaScript | ReactJS | GatsbyJS | HTML5 | CSS</span>
 			</nav>
 		);
 	}

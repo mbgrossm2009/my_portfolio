@@ -18,7 +18,7 @@ class Job extends React.Component {
 				<li>{listItems}</li>
 				<li>
 					<a href={url}>
-						<img className='myImage img-fluid' src={src} alt='My Job' />
+						<img className='myImage img-fluid' src={src} alt='Github Link' />
 					</a>
 				</li>
 			</ul>
