@@ -29,9 +29,9 @@ class Education extends Component {
 						</a>
 					</p>
 				</School>,
-				<School name='Southern New Hampshire University' location='Virtual' major="Master's Degree in Information Technology with a Concentraion in Software Application Development">
+				<School name='Southern New Hampshire University' location='Virtual - Expected Completion Date: Oct 2021' major="Master's Degree - Information Technology with a Concentraion in Software Application Development">
 					<p>
-						<a href='https://www.curry.edu'>www.curry.edu</a>{' '}
+						<a href='https://www.snhu.edu'>www.snhu.edu</a>{' '}
 					</p>
 				</School>
 			]
