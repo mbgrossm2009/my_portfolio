@@ -28,6 +28,11 @@ class Education extends Component {
 							Udemy Course
 						</a>
 					</p>
+				</School>,
+				<School name='Southern New Hampshire University' location='Virtual' major="Master's Degree in Information Technology with a Concentraion in Software Application Development">
+					<p>
+						<a href='https://www.curry.edu'>www.curry.edu</a>{' '}
+					</p>
 				</School>
 			]
 		};
