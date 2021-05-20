@@ -31,7 +31,7 @@ class Education extends Component {
 				</School>,
 				<School name='Southern New Hampshire University' location='Virtual - Expected Completion Date: Oct 2021' major="Master's Degree - Information Technology with a Concentraion in Software Application Development">
 					<p>
-						<a href='https://www.snhu.edu'>www.snhu.edu</a>{' '}
+						<a href='https://www.snhu.edu'>www.snhu.edu</a>
 					</p>
 				</School>
 			]
