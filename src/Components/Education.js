@@ -12,24 +12,24 @@ class Education extends Component {
 						<a href='https://www.curry.edu'>www.curry.edu</a>{' '}
 					</p>
 				</School>,
-				<School name='Launch Academy' location='Remote' major='Full Stack Web Development'>
+				<School name='Launch Academy' location='Online' major='Full Stack Web Development'>
 					<p>
 						<a href='https://launchacademy.com/'>www.launchacademy.com</a>
 					</p>
 				</School>,
-				<School name='Samex' location='Remote' major='Full Stack Web Development'>
+				<School name='Samex' location='Online' major='Full Stack Web Development'>
 					<p>
 						<a href='https://apprentice.samex.online/'>www.apprentice.samex.online</a>
 					</p>
 				</School>,
-				<School name='Udemy' location='Remote' major='React Development'>
+				<School name='Udemy' location='Online' major='React Development'>
 					<p>
 						<a href='https://www.udemy.com/the-complete-react-js-redux-course-build-modern-web-apps/'>
 							Udemy Course
 						</a>
 					</p>
 				</School>,
-				<School name='Southern New Hampshire University' location='Virtual - Expected Completion Date: Oct 2021' major="Master's Degree - Information Technology with a Concentraion in Software Application Development">
+				<School name='Southern New Hampshire University' location='Online - Expected Completion Date: Oct 2021' major="Master's Degree - Information Technology with a Concentraion in Software Application Development">
 					<p>
 						<a href='https://www.snhu.edu'>www.snhu.edu</a>
 					</p>
