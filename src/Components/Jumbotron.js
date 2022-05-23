@@ -37,8 +37,8 @@ class Jumbotron extends Component {
 							{/*Resume Start */}
 							<section className='resume w-50 p-3  col-lg-6 col-md'>
 								<a
-									href='/MatthewGrossmanResume.pdf'
-									download='/MatthewGrossmanResume'
+									href='/Matthew_Grossman_Resume.pdf'
+									download='/Matthew_Grossman_Resume'
 									className='download_link'
 								>
 									Download My Resume Here
