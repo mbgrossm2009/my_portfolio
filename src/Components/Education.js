@@ -8,49 +8,32 @@ class Education extends Component {
       schools: [
         <School
           name="Southern New Hampshire University"
-          location="Online - Expected Completion Date: Oct 2021"
-          major="Master's Degree - Information Technology with a Concentraion in Software Application Development"
+          gradDate="March 2022"
+          major="Master's Degree - Information Technology: Software Application Development"
         >
           <p>
-            <a href="https://www.snhu.edu">www.snhu.edu</a>
+            <a href="https://www.snhu.edu">SNHU Homepage</a>
           </p>
         </School>,
         <School
           name="Curry College"
-          location="Milton,MA"
+          gradDate="May 2013"
           major="Bachelor's Degree - Information Technology"
         >
           <p>
-            <a href="https://www.curry.edu">www.curry.edu</a>{" "}
+            <a href="https://www.curry.edu">Curry College Homepage</a>{" "}
           </p>
         </School>,
         <School
           name="Launch Academy"
-          location="Online"
+          gradDate="November 2017"
           major="Full Stack Web Development"
         >
           <p>
-            <a href="https://launchacademy.com/">www.launchacademy.com</a>
-          </p>
-        </School>,
-        <School
-          name="Samex"
-          location="Online"
-          major="Full Stack Web Development"
-        >
-          <p>
-            <a href="https://apprentice.samex.online/">
-              www.apprentice.samex.online
-            </a>
-          </p>
-        </School>,
-        <School name="Udemy" location="Online" major="React Development">
-          <p>
-            <a href="https://www.udemy.com/the-complete-react-js-redux-course-build-modern-web-apps/">
-              Udemy Course
-            </a>
+            <a href="https://launchacademy.com/">Launch Academy Homepage</a>
           </p>
         </School>
+        
       ]
     };
   }

@@ -14,7 +14,10 @@ class Main extends Component {
 				<Navbar />
 				<div className='container'>
 					<Jumbotron />
+
 					<ProfessionalExperience />
+				
+					<p></p>
 					<h1 className=' edu_title text-center'>Education</h1>
 					<Education />
 					</div>

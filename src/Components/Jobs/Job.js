@@ -8,14 +8,14 @@ class Job extends React.Component {
 		});
 
 		return (
-			<ul className='job'>
+			<ul className='job col-md-12'>
 				<li>
 					<h2> {company}</h2>
 				</li>
 				<li>
 					<h6>{title}</h6>
 				</li>
-				<li>{listItems}</li>
+				{/* <li>{listItems}</li> */}
 				<li>
 					<a href={url}>
 						<img className='myImage img-fluid' src={src} alt='Github Link' />

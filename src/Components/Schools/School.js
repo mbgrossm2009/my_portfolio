@@ -2,7 +2,7 @@ import React from 'react';
 
 class School extends React.Component {
 	render() {
-		const { name, major, location, children } = this.props;
+		const { name, major, gradDate, children } = this.props;
 
 		return (
 			<ul className='col-lg-10 school'>
@@ -13,7 +13,7 @@ class School extends React.Component {
 					<h6>{major}</h6>
 				</li>
 				<li>
-					<h6>{location}</h6>
+					<h6>{gradDate}</h6>
 				</li>
 				<li>
 					<h6>{children}</h6>
