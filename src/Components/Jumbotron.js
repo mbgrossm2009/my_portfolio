@@ -64,6 +64,11 @@ class Jumbotron extends Component {
 						</div>
 						<hr className='my-4' />
 					</div>
+				<div className = "job col-lg-12">
+					<div className = ""><h1 >Projects</h1></div>
+					<h2><a href = "https://commander-app.vercel.app"> MTG: Commander Deck Builder </a></h2>
+					<h5><a href = "https://github.com/mbgrossm2009/commander-app">Github Link </a> </h5>
+					</div>
 				</div>
 				{/* JumboTron Bottom End*/}
 			</div>
