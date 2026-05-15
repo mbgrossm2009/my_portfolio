@@ -1,68 +1,64 @@
-import React, { Component } from "react";
+import React from "react";
 import Job from "./Jobs/Job";
-import me1 from "../images/me1.png";
 import hathaway1 from "../images/hathawayhomes.png";
 import Matt2 from "../images/Matt2.jpg";
+import cvs from "../images/cvs.png";
 
-class ProfessionalExperience extends Component {
-  constructor() {
-    super();
-    this.state = {
-      jobs: [
-        <Job
-          title="FreeLance Developer"
-          company="Self Employed"
-          description={[
-            "Design and develop websites based on clients specific needs",
-            "- Construct reusable components to be used in interactive UI kits"
-          ]}
-          src={Matt2}
-        />,
-        <Job
-          title="Full Stack Web Developer"
-          company="ME & FM Society of B.C."
-          description={[
-            " Collaborated and developed a website, with a team, that allows patients to find the best doctor by searching a broad database.",
-            " - Allows patients to rate/comment these doctors based on their own experience."
-          ]}
-          src={me1}
-          url="https://sheltered-brushlands-68738.herokuapp.com/"
-        />,
-        <Job
-          title="Full Stack Web Developer"
-          company="HathawayHomes-MA"
-          description={[
-            " Designed and built a full-service real estate website with clean and organized code, in which users are able to customize their search based on a variety of categories such as geographical location, price point, number of rooms, and more. "
-          ]}
-          src={hathaway1}
-          url="http://www.hathawayhomes-ma.com"
-        />,
-        <Job
-          title="Full Stack Web Developer"
-          company="Piece of Cake"
-          description={[
-            " Currently designing and building a website for a client looking to show off her creativity in the kitchen."
-          ]}
-					url = "https://github.com/mbgrossm2009/piece_of_cake"
-        />
-      ]
-    };
-  }
+const JOBS = [
+  {
+    title: "Freelance Developer",
+    company: "Independent",
+    current: true,
+    description: [
+      "Build, test, and maintain custom websites by integrating interactive UI elements.",
+      "Develop reusable React components to streamline front-end functionality and improve user experience.",
+      "Collaborate with clients throughout the design process to ensure satisfaction with the final product.",
+    ],
+    src: Matt2,
+  },
+  {
+    title: "Store Manager",
+    company: "CVS / Health",
+    current: true,
+    description: [
+      "Lead a team of 15, ensuring smooth daily operations and top-notch customer service.",
+      "Analyze sales data to drive performance improvements and keep products in stock to minimize waste and boost profitability.",
+      "Coach and train staff to enhance performance, engagement, and retention.",
+      "Leverage point-of-sale and inventory systems to make operations more efficient and track key metrics.",
+    ],
+    src: cvs,
+    url: "https://www.cvs.com/",
+  },
+  {
+    title: "Full Stack Web Developer",
+    company: "HathawayHomes-MA",
+    description: [
+      "Designed and developed a full-service real estate website with clean, organized code, enabling users to customize their property search by location, price, and room count.",
+      "Implemented a PostgreSQL database to store listings created by an Admin.",
+      "Integrated the Zillow API using REST architecture.",
+      "Installed and configured AWS and Heroku tools for development.",
+      "Tech: Ruby on Rails, HTML, CSS, Bootstrap, Heroku, AWS, Test-Driven Development.",
+    ],
+    src: hathaway1,
+    url: "http://www.hathawayhomes-ma.com",
+  },
+];
 
-  render() {
-    const myJobs = this.state.jobs.map(job => {
-      return <div className="col-lg-6">{job}</div>;
-    });
-    return (
-      <div className="jobs">
-        <h1 className="title text-center">Professional Experience</h1>
+export default function ProfessionalExperience() {
+  return (
+    <section id="experience" className="py-20 sm:py-28">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-12 text-center">
+          <p className="section-eyebrow">What I've done</p>
+          <h2 className="mt-2 section-title">Professional Experience</h2>
+        </div>
 
-        <div className="container">
-          <div className="row">{myJobs}</div>
+        <div className="grid gap-6 md:grid-cols-2">
+          {JOBS.map((job) => (
+            <Job key={`${job.title}-${job.company}`} {...job} />
+          ))}
         </div>
       </div>
-    );
-  }
+    </section>
+  );
 }
-
-export default ProfessionalExperience;

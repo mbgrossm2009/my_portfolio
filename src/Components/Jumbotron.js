@@ -1,71 +1,111 @@
-import React, { Component } from 'react';
-import facebook from '../images/facebook.png';
-import linkedin from '../images/linkedin.png';
-import github from '../images/github.png';
-import matt1 from '../images/Matt1.jpg';
+import React from "react";
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
+import facebook from "../images/facebook.png";
+import matt1 from "../images/Matt1.jpg";
 
-class Jumbotron extends Component {
-	render() {
-		return (
-			<div className='jumbotron'>
-				<div className='container'>
-					{/* Top of Jumboton Start */}
-					<div className='col-lg-12 row'>
-						<h1 className='display-6'>Welcome to my Portfolio!</h1>
-						<p className='lead'>
-							My name is Matthew Grossman and I am a software developer looking for an entry level
-							position where I can continue to learn and grow within the developing field. I am a fast
-							learner with analytical skills and a dedicated work ethic. I excel in Javascript, ReactJS,
-							Ruby on Rails, HTML5, CSS, and continue to expand my knowledge as both a coder and developer
-							through online courses, collaborations with peers, and self teaching.
-						</p>
-					</div>
-				</div>
+const SOCIALS = [
+  { href: "https://www.linkedin.com/in/matt-grossman/", img: linkedin, label: "LinkedIn" },
+  { href: "https://github.com/mbgrossm2009", img: github, label: "GitHub" },
+  { href: "https://www.facebook.com/matt.grossman.18", img: facebook, label: "Facebook" },
+];
 
-				{/* Top of JumboTron End*/}
+export default function Hero() {
+  return (
+    <section
+      id="about"
+      className="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28"
+    >
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 -z-10"
+      >
+        <div className="absolute -top-32 -left-24 h-96 w-96 rounded-full bg-brand-300/40 blur-3xl dark:bg-brand-600/20" />
+        <div className="absolute top-20 -right-32 h-96 w-96 rounded-full bg-fuchsia-300/30 blur-3xl dark:bg-fuchsia-700/20" />
+      </div>
 
-				{/*JumboTron Bottom Start */}
-				<div className='container'>
-					<div className='jumbotronBottom row'>
-						{/*Picture of me */}
-						<div className='col-lg-6'>
-							<img src={matt1} className=' myPic img-fluid' alt='Matt Grossman' />
-						</div>
-						{/* Picture of me end */}
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="grid items-center gap-12 md:grid-cols-[1fr_280px]">
+          <div className="animate-fade-up">
+            <p className="section-eyebrow">Hi, I'm Matt</p>
+            <h1 className="mt-3 font-display text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl dark:text-white">
+              Building things for the web,{" "}
+              <span className="bg-gradient-to-r from-brand-500 to-fuchsia-500 bg-clip-text text-transparent">
+                one component at a time.
+              </span>
+            </h1>
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+              I bring 18 years of leadership from retail management and a deep
+              love of problem-solving into software development. Comfortable
+              across the stack with JavaScript, React, Ruby on Rails, HTML, and
+              CSS — and always shipping something new.
+            </p>
 
-						<div className='col-lg-6 col-sm myLinks'>
-							{/*Resume Start */}
-							<section className='resume w-50 p-3  col-lg-6 col-md'>
-								<a
-									href='/Matthew_Grossman_Resume.pdf'
-									download='/Matthew_Grossman_Resume'
-									className='download_link'
-								>
-									Download My Resume Here
-								</a>
-							</section>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <a
+                href="/Matthew_Grossman_Resume.pdf"
+                download
+                className="inline-flex items-center gap-2 rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand-700"
+              >
+                Download Resume
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                </svg>
+              </a>
+              <a
+                href="mailto:mgrossman119@gmail.com"
+                className="inline-flex items-center gap-2 rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:border-brand-500 hover:text-brand-600 dark:border-slate-700 dark:text-slate-200 dark:hover:border-brand-400 dark:hover:text-brand-400"
+              >
+                Get in touch
+              </a>
+            </div>
 
-							{/*Resume End */}
-							{/*Social Media Links Start */}
-							<div className='socialMedia_links col-lg-12 '>
-								<a href='https://www.linkedin.com/in/matt-grossman/'>
-									<img src={linkedin} className='social' alt='Facebook' />
-								</a>
-								<a href='https://www.facebook.com/matt.grossman.18'>
-									<img src={facebook} className='social' alt='Facebook' />
-								</a>
-								<a href='https://github.com/mbgrossm2009'>
-									<img src={github} className='social' alt='github' />
-								</a>
-							</div>
-							{/*Social Media Links End */}
-						</div>
-						<hr className='my-4' />
-					</div>
-				</div>
-				{/* JumboTron Bottom End*/}
-			</div>
-		);
-	}
+            <div className="mt-8 flex items-center gap-4">
+              {SOCIALS.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.label}
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 bg-white/60 transition hover:-translate-y-0.5 hover:border-brand-500 dark:border-slate-700 dark:bg-slate-900/60 dark:hover:border-brand-400"
+                >
+                  <img src={s.img} alt="" className="h-5 w-5 object-contain" />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div className="relative mx-auto w-full max-w-xs animate-fade-in">
+            <div className="absolute inset-0 -z-10 translate-x-3 translate-y-3 rounded-3xl bg-gradient-to-tr from-brand-500 to-fuchsia-500" />
+            <img
+              src={matt1}
+              alt="Matt Grossman"
+              className="aspect-[4/5] w-full rounded-3xl object-cover shadow-xl ring-1 ring-slate-200 dark:ring-slate-800"
+            />
+          </div>
+        </div>
+
+        <div className="mt-16 grid grid-cols-2 gap-4 sm:grid-cols-4">
+          {[
+            "JavaScript",
+            "React",
+            "Ruby on Rails",
+            "PostgreSQL",
+            "HTML & CSS",
+            "Bootstrap",
+            "AWS / Heroku",
+            "Test-Driven Dev",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="rounded-xl border border-slate-200 bg-white/70 px-4 py-2 text-center text-sm font-medium text-slate-700 dark:border-slate-800 dark:bg-slate-900/40 dark:text-slate-300"
+            >
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
-export default Jumbotron;

@@ -1,27 +1,22 @@
-import React, { Component } from 'react';
-import Navbar from './Navbar';
-import Jumbotron from './Jumbotron';
-import ProfessionalExperience from './ProfessionalExperience';
-import School from './Schools/School';
-import Footer from './Footer';
-import Education from './Education'
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Jumbotron";
+import ProfessionalExperience from "./ProfessionalExperience";
+import Education from "./Education";
+import Hobbies from "./Hobbies";
+import Footer from "./Footer";
 
-class Main extends Component {
-
-	render() {
-		return (
-			<div className='my_portfolio'>
-				<Navbar />
-				<div className='container'>
-					<Jumbotron />
-					<ProfessionalExperience />
-					<h1 className=' edu_title text-center'>Education</h1>
-					<Education />
-					</div>
-				<Footer />
-			</div>
-		);
-	}
+export default function Main() {
+  return (
+    <div id="top" className="min-h-screen font-sans">
+      <Navbar />
+      <main>
+        <Hero />
+        <ProfessionalExperience />
+        <Education />
+        <Hobbies />
+      </main>
+      <Footer />
+    </div>
+  );
 }
-
-export default Main;

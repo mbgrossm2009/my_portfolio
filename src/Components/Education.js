@@ -1,49 +1,41 @@
-import React, { Component } from "react";
-import School from './Schools/School'
+import React from "react";
+import School from "./Schools/School";
 
+const SCHOOLS = [
+  {
+    name: "Southern New Hampshire University",
+    gradDate: "March 2022",
+    major: "Master's Degree — Information Technology: Software Application Development",
+    url: "https://www.snhu.edu",
+  },
+  {
+    name: "Launch Academy",
+    gradDate: "November 2017",
+    major: "Full Stack Web Development",
+    url: "https://launchacademy.com/",
+  },
+  {
+    name: "Curry College",
+    gradDate: "May 2013",
+    major: "Bachelor's Degree — Information Technology",
+    url: "https://www.curry.edu",
+  },
+];
 
-class Education extends Component {
-	constructor() {
-		super();
-		this.state = {
-			schools: [
-				<School name='Curry College' location='Milton,MA' major='Information Technology'>
-					<p>
-						<a href='https://www.curry.edu'>www.curry.edu</a>{' '}
-					</p>
-				</School>,
-				<School name='Launch Academy' location='Online' major='Full Stack Web Development'>
-					<p>
-						<a href='https://launchacademy.com/'>www.launchacademy.com</a>
-					</p>
-				</School>,
-				<School name='Samex' location='Online' major='Full Stack Web Development'>
-					<p>
-						<a href='https://apprentice.samex.online/'>www.apprentice.samex.online</a>
-					</p>
-				</School>,
-				<School name='Udemy' location='Online' major='React Development'>
-					<p>
-						<a href='https://www.udemy.com/the-complete-react-js-redux-course-build-modern-web-apps/'>
-							Udemy Course
-						</a>
-					</p>
-				</School>,
-				<School name='Southern New Hampshire University' location='Online - Expected Completion Date: Oct 2021' major="Master's Degree - Information Technology with a Concentraion in Software Application Development">
-					<p>
-						<a href='https://www.snhu.edu'>www.snhu.edu</a>
-					</p>
-				</School>
-			]
-		};
-	}
-
-	render() {
-		return (
-			<div className='schools row'>{this.state.schools}</div>
-
-		);
-	}
+export default function Education() {
+  return (
+    <section id="education" className="bg-slate-100/50 py-20 sm:py-28 dark:bg-slate-900/30">
+      <div className="mx-auto max-w-6xl px-6">
+        <div className="mb-12 text-center">
+          <p className="section-eyebrow">Where I learned</p>
+          <h2 className="mt-2 section-title">Education</h2>
+        </div>
+        <div className="grid gap-6 md:grid-cols-3">
+          {SCHOOLS.map((s) => (
+            <School key={s.name} {...s} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
-
-export default Education;
